@@ -3,7 +3,7 @@ Algoritmic Exercises in JavaScript
 
 
 ## Purpose
-Learn Algo to master tech intrerview
+Learn Algos to master tech interview
 
 ## Techs
 Vanilla JS
