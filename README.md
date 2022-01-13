@@ -1,7 +1,6 @@
 # THP_Algo_Js
 Algoritmic Exercises in JavaScript 
 
-**[direct link to Algos](https://profprogrammeur.github.io/THP_Algo_Js/)**
 
 ## Purpose
 Learn Algo to master tech intrerview
