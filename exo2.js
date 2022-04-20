@@ -1,4 +1,4 @@
-console.log("EXO2")
+console.log("EXO2 O(n²)")
 
 const sunSetVue = (list) => {
   let n = 0;
@@ -9,9 +9,9 @@ const sunSetVue = (list) => {
         vue += 1;
       }
     }
-    if (vue == list.length - (i + 1)) {
-      n += 1;
-    }
+    // if (vue == list.length - (i + 1)) {
+    //   n += 1;
+    // }
   }
   return n;
 }
