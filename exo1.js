@@ -1,4 +1,4 @@
-console.log ("EXO1")
+console.log ("EXO1 : 2 éléments de la liste ont-ils k comme somme ?")
 
 const isSum = (list, k) => {
   for (let i = 0; i < list.length; i++) {
@@ -11,8 +11,7 @@ const isSum = (list, k) => {
   }
 }
 
-const list = [10, 15, 3, 7];
-console.log("liste = [10, 15, 3, 7]")
-console.log("fonction = isSum(array,k)")
-console.log("Somme k de 2 elements = 17 ?? : " + isSum(list, 17));
-console.log("Somme k de 2 elements = 19 ?? : " + isSum(list, 19));
+const list = [10, 15, 3, 19];
+console.log("liste = [" + list+ "]")
+console.log("k = 17 ? : " + isSum(list, 17));
+console.log("k = 19 ? : " + isSum(list, 19));
