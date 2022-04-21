@@ -1,4 +1,7 @@
-console.log("EXO2 O(n²)")
+console.log("EXO 2 complexité O(n²): ")
+const lib = require("./parsing");
+let list = lib.parsingFile();
+if (list) {
 
 const sunSetVue = (list) => {
   let n = 0;
@@ -9,16 +12,15 @@ const sunSetVue = (list) => {
         vue += 1;
       }
     }
-    // if (vue == list.length - (i + 1)) {
-    //   n += 1;
-    // }
+    if (vue == list.length - (i + 1)) {
+      n += 1;
+    }
   }
   return n;
 }
 
-const list1 = [3, 7, 8, 3, 6, 1];
-const list2 = [1, 4, 5, 8];
 
-console.log("[3, 7, 8, 3, 6, 1] : " + sunSetVue(list1) + " appart(s) avec vue")
-console.log("[1, 4, 5, 8] : " + sunSetVue(list2) + " appart(s) avec vue")
-console.log("fonction = sunSetVue(array)")
+console.log(list)
+console.log(sunSetVue(list) + " appart(s) avec vue")
+
+}
